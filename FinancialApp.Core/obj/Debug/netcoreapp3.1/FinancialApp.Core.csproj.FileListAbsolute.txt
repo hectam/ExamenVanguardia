@@ -1,0 +1,9 @@
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\bin\Debug\netcoreapp3.1\FinancialApp.Core.deps.json
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\bin\Debug\netcoreapp3.1\FinancialApp.Core.dll
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\bin\Debug\netcoreapp3.1\FinancialApp.Core.pdb
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\obj\Debug\netcoreapp3.1\FinancialApp.Core.csprojAssemblyReference.cache
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\obj\Debug\netcoreapp3.1\FinancialApp.Core.AssemblyInfoInputs.cache
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\obj\Debug\netcoreapp3.1\FinancialApp.Core.AssemblyInfo.cs
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\obj\Debug\netcoreapp3.1\FinancialApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\obj\Debug\netcoreapp3.1\FinancialApp.Core.dll
+C:\Users\darkz\Documents\Q2\Vanguardia\Guia para examen\financialapp.api-master\FinancialApp.Core\obj\Debug\netcoreapp3.1\FinancialApp.Core.pdb
