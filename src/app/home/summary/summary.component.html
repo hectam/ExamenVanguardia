@@ -1,0 +1,31 @@
+<div class="conteinerT">
+<div class="card">
+    <div class="card-body"   >
+      <h1 style="text-align:center;" >Resumen</h1> 
+    
+    <div class="conteiner row" >
+
+    <h5 class="col" style="text-align: right; color: green;" >Income:</h5>
+    <h5 style="text-align: left; padding-left: 5rem; color: green;" class="col">{{Income | currency:'USD':'symbol'}}</h5>
+    
+    </div>
+
+    <div class="conteiner row" >
+
+        <h5 class="col" style="text-align: right; color: red;" >Expense:</h5>
+        <h5 style="text-align: left; padding-left: 5rem; color: red;" class="col">{{Expense | currency:'USD':'symbol'}}</h5>
+        
+    </div>
+        <hr size="3">
+
+        <div class="conteiner row" >
+
+            <h5 class="col" style="text-align: right; color: green;" *ngIf="GetTotal(Income,Expense) > 0"  >Total:</h5>
+            <h5 style="text-align: left; padding-left: 5rem; color: green"  *ngIf="GetTotal(Income,Expense) > 0" class="col">{{GetTotal(Income,Expense) | currency:'USD':'symbol'}}</h5>
+            <h5 class="col" style="text-align: right; color: red;" *ngIf="GetTotal(Income,Expense) < 0"  >Total:</h5>
+            <h5 style="text-align: left; padding-left: 5rem; color: red"  *ngIf="GetTotal(Income,Expense) < 0" class="col">{{GetTotal(Income,Expense) | currency:'USD':'symbol'}}</h5>
+        </div>
+      
+    </div>
+  </div>
+</div>

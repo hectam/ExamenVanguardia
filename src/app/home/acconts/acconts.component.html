@@ -1,0 +1,28 @@
+<div class="conteinerT">
+    <div class="card">
+        <div class="card-body"   >
+          <h1 style="text-align:center;" >Cuentas</h1> 
+        
+          <table class="table table-white">
+            <thead>
+              <tr>
+              
+                <th scope="col">Nombre</th>
+                <th scope="col">Monto</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let billetera of _Accounts">
+              
+                <td>{{billetera.Name}}</td>
+                <td>{{billetera.Amount | currency:billetera.Currency:'symbol'}}</td>
+                
+              </tr>
+              
+            </tbody>
+          </table>
+          
+        </div>
+      </div>
+    </div>

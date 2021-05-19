@@ -1,0 +1,13 @@
+.conteinerT {
+    background: seagreen;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+  }
+  .card {
+    background: white;
+    padding: .2rem;
+    width: 80%;
+  }

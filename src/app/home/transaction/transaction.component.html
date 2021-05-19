@@ -1,0 +1,39 @@
+<div class="conteinerT">
+    <div class="card">
+        <div class="card-body"   >
+          <h1 style="text-align:center;" >Transacciones</h1> 
+        
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Monto</th>
+               
+              </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let Historial of _Transaction">
+                
+                    
+                        
+                        <td>{{Historial.Description}}
+                            <br>
+                           <small style="color: grey;"> Account {{GetAccount(Historial)}}</small>
+                        </td>
+                        <td><span style="color: green;" *ngIf="Historial.Amount > 0">{{Historial.Amount | currency:'USD':'symbol'}}</span>
+                            <span style="color: red;" *ngIf="Historial.Amount < 0">{{Historial.Amount | currency:'USD':'symbol'}}</span>
+                            <br>
+                           <small style="color: grey;"> {{Historial.TrasactionDate | date}}</small>
+                        </td>
+                        
+                   
+                </tr>
+                
+              </tbody>
+          </table>
+          
+          
+          
+        </div>
+      </div>
+    </div>
